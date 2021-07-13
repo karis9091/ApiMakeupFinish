@@ -129,6 +129,7 @@ class _MakeupView extends StatelessWidget {
 
 class _Fondo extends StatelessWidget {
   @override
+<<<<<<< HEAD
   Widget build(BuildContext context) {
     return Opacity(
       opacity: 0.5,
@@ -141,4 +142,12 @@ class _Fondo extends StatelessWidget {
       ),
     );
   }
+=======
+  HomePageState createState() => HomePageState();
+}
+
+class HomePageState extends State {
+  final _controller = ScrollController();
+  bool _cargando = false;
+>>>>>>> e7989283156e9476e6915a95e860fb06530eae01
 }
